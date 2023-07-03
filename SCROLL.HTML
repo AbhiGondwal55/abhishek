@@ -1,0 +1,60 @@
+<HTML>
+<HEAD>
+    <TITLE> SCROLL SNAP</TITLE>
+    <STYLE>
+        BODY{background:black;}
+    .SCROLL-CONTAINER,
+        .SCROLL-AREA{
+            max-width:400PX;
+            height:300PX;
+            font-size: 60PX;
+        }
+        .SEROLL-CONTAINER{
+            overflow: auto;
+            scroll-snap-type:y mandatory;
+            
+        }
+        .SCROLL-AREA{
+            scroll-snap-align:start;
+            
+        }
+       .SCROLL-CONTAINER,
+        .SCROLL-AREA{margin: 0 auto;}
+        .SCROLL-AREA{
+            DISPLAY:FLEX;
+            align-items:center;
+            justify-content: center;
+            COLOR:WHITE;
+            
+        }
+        .SCROLL-AREA:nth-of-type(1){
+            background: #49b293;
+        }
+         .SCROLL-AREA:nth-of-type(2){
+            background: #c94e4b;
+        }
+        
+         .SCROLL-AREA:nth-of-type(3){
+            background: #4cc1b3;
+        }
+         .SCROLL-AREA:nth-of-type(4){
+            background: #8360a6;
+        }
+    </STYLE>
+    
+    
+    </HEAD><BODY>
+    
+    
+    <DIV CLASS="SUPPORT-SCROLLSNAP"></DIV>
+    <DIV CLASS="SCROLL-CONTAINER">
+    <DIV CLASS="SCROLL-AREA">1</DIV>
+    <DIV CLASS="SCROLL-AREA">2</DIV>
+    <DIV CLASS="SCROLL-AREA">3</DIV>
+    <DIV CLASS="SCROLL-AREA">4</DIV>
+    
+    </DIV>
+    
+    
+    
+    </BODY></HTML>
